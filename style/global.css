@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit; /*Para desconsiderar as fontes de todo projeto */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  /* Produto Degradê*/
+  --brand-gradient: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+
+  /* Base */
+  --bg-color: #09090b;
+  --surface-color: #18181b;
+  --stroke-color: #27272a;
+  --text-color-secondary: #a1a1aa;
+  --text-color-primary: #f4f4f5;
+
+  /* Tipografia */
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+}
