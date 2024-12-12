@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Tela Inicial -->
+      <div id="budget-list-screen" style="display: block">
+        <h1>Listagem de Orçamentos</h1>
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Procurar por número do orçamento"
+        />
+        <button id="create-budget-btn">Criar Novo Orçamento</button>
+        <ul id="budget-list"></ul>
+      </div>
+
+      <!-- Tela de Criação/Edição de Orçamento -->
+      <div id="budget-edit-screen" style="display: none">
+        <h1>Orçamento: <span id="current-budget-name"></span></h1>
+        <div class="add-item">
+          <input type="text" id="item-name" placeholder="Nome do item" />
+          <input
+            type="number"
+            id="item-quantity"
+            placeholder="Quantidade"
+            min="1"
+          />
+          <button id="add-item-btn">Adicionar Item</button>
+        </div>
+        <ul id="item-list"></ul>
+        <button id="save-budget-btn">Salvar e Voltar</button>
+      </div>
+
+      <!-- Menu Contextual -->
+      <div id="context-menu" class="modal">
+        <div onclick="handleAction('editar')" class="menu-item">✏️ Editar</div>
+        <div onclick="handleAction('apagar')" class="menu-item">🗑️ Apagar</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
