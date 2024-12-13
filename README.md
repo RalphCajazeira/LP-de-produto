@@ -1,6 +1,10 @@
-# Landing Page de Produto
+## Demonstração
 
-Este projeto foi desenvolvido durante as aulas da RocketSeat, utilizando um modelo do Figma fornecido em aula. Ele representa uma etapa do meu aprendizado em desenvolvimento web.
+Você pode acessar a página da Landing Page [aqui](https://ralphcajazeira.github.io/LP-de-produto/).
+
+## Sobre o Projeto
+
+Este projeto foi desenvolvido durante as aulas da RocketSeat, utilizando um modelo do Figma fornecido em aula. Ele faz parte do meu processo de aprendizado em desenvolvimento web, com foco em design responsivo e melhores práticas em HTML, CSS e JavaScript.
 
 ## Capturas de Tela
 
